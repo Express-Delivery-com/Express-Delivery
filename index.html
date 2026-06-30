@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html lang="en">  
 <head>  
 <meta charset="UTF-8">  
@@ -101,14 +101,15 @@ margin-top:40px;
   
 <body> 
   
-<div style="text-align:center; padding:10px;">
+<div style="background:white; padding:10px; display:flex; align-items:center; justify-content:center; gap:10px;">
 
-<img src="Picsart_26-06-15_05-49-41-870.png" height="100"><br>
+<img src="https://cdn-icons-png.flaticon.com/512/679/679922.png" width="40">
 
-<span style="color:red;">We keep improving to serve you better!</span>
-
+<div>
+<b style="font-size:22px;">PRONTO COURIER</b><br>
+<small style="color:gray;">We deliver your parcels safely</small>
 </div>
-  
+
 </div>
 
 <div class="topbar">  
@@ -202,7 +203,7 @@ security and customer satisfaction.
 <h3>Contact</h3>
 <p>📞 0716001608</p>
 <p>📍 Colombo, Sri Lanka</p>
-<p>📧expressdelivery@email.com</p>
+<p>📧 fastcourier@email.com</p>
 </div>
 
 </div>
@@ -221,28 +222,26 @@ function trackParcel(){
 
 let number = document.getElementById("track").value;
 
-if(number=="BL09716584"){
+if(number=="TRK1003"){
 document.getElementById("result").innerHTML =
-"<b>Name:</b> Koshala Dilshan <br><br> <b>Status:</b> Accepted <br><br>" +
+"<b>Name:</b> Saman Kumara <br><br> <b>Status:</b> Delivered <br><br>" +
 
 "<b>Tracking Information</b><br><br>" +
 
-"2026-06-17 01:04 PM - Package Picked Up (Jaffna) <br>" +
+"2026-07-01 8:30 AM - Package Picked Up (Colombo) <br>" +
 "<br>" +
-"2026-06-17 01:31 PM - Package Scanned (Jaffna)<br>" +
 "<br>" +
 "";
 }
 
-else if(number=="BL09762750"){
+else if(number=="TRK1004"){
 document.getElementById("result").innerHTML =
-"<b>Name:</b> A.A danuja pahan savinjith <br><br> <b>Status:</b> Accepted <br><br>" +
+"<b>Name:</b> Saman Kumara <br><br> <b>Status:</b> Delivered <br><br>" +
 
 "<b>Tracking Information</b><br><br>" +
 
-"2026-06-15 11:36 AM - Package Picked Up (Jaffna) <br>" +
+"2026-07-01 8:30 AM - Package Picked Up (Colombo) <br>" +
 "<br>" +
-"2026-06-15 11:49 AM - Package Scanned (jaffna)<br>" +
 "<br>" +
 "";
 }
@@ -260,62 +259,14 @@ document.getElementById("result").innerHTML =
 "";
 }
 
-else if(number=="BL09712742"){
+else if(number=="TRK1003"){
 document.getElementById("result").innerHTML =
-"<b>Name:</b> Yasiru <br><br> <b>Status:</b> Accepted <br><br>" +
+"<b>Name:</b> Saman Kumara <br><br> <b>Status:</b> Delivered <br><br>" +
 
 "<b>Tracking Information</b><br><br>" +
 
-"2026-06-16 11:26 AM - Package Picked Up (jaffna) <br>" +
+"2026-07-01 8:30 AM - Package Picked Up (Colombo) <br>" +
 "<br>" +
-"2026-06-16 12:07 PM - Package Scanned (jaffna)<br>" +
-"<br>" +
-"2026-06-16 09:13 PM - Package Arrived at Transit <br>" +
-"<br>" +
-"2026-06-17 01:03 AM - Package Dispatched from Transit <br>" +
-"<br>" +
-"";
-}
-
-else if(number=="BL09762784"){
-document.getElementById("result").innerHTML =
-"<b>Name:</b> H.M Vihanga Sangeeth <br><br> <b>Status:</b> Accepted <br><br>" +
-
-"<b>Tracking Information</b><br><br>" +
-
-"2026-06-16 12:05 PM - Package Picked Up (Matara) <br>" +
-"<br>" +
-"2026-06-16 12:07 PM - Package Scanned (Matara)<br>" +
-"<br>" +
-"2026-06-16 09:13 PM - Package Arrived at Transit <br>" +
-"<br>" +
-"2026-06-17 01:03 AM - Package Dispatched from Transit <br>" +
-"<br>" +
-"";
-}
-
-else if(number=="BL09679484"){
-document.getElementById("result").innerHTML =
-"<b>Name:</b> 36/178,
-Nugelanadata ,
-Rajagalathenna ,
-Ampara.
-0788463062 <br><br> <b>Status:</b> Accepted <br><br>" +
-
-"<b>Tracking Information</b><br><br>" +
-
-"2026-06-28 05:43 PM - Package Picked Up (Jaffna) <br>" +
-"<br>" +
-"";
-}
-
-else if(number=="BL09768527"){
-document.getElementById("result").innerHTML =
-"<b>Name:</b> K.B Tharul Santhul <br><br> <b>Status:</b> Accepted <br><br>" +
-
-"<b>Tracking Information</b><br><br>" +
-
-"2026-06-28 02:43 PM - Package Picked Up (Jaffna) <br>" +
 "<br>" +
 "";
 }
@@ -330,4 +281,3 @@ document.getElementById("result").innerHTML =
 </script>  
 </body>  
 </html> 
-  
